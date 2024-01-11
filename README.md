@@ -6,23 +6,23 @@ Overview
 
 2. Components
 2.1 Block
-**Fields:**
+- **Fields:**
 
 - Index: The position of the block in the blockchain.
 - Timestamp: The time the block was created.
 - Data: The information stored in the block (e.g., transaction data).
 - PreviousHash: The hash of the previous block in the chain.
 - Hash: The hash of the current block.
-**Functions:**
+- **Functions:**
 
 - CalculateHash(block Block) string: Calculates the hash of a block.
 - GenerateBlock(previousBlock Block, data string) Block: Creates a new block in the blockchain.
 
 2.2 Blockchain
-**Fields:**
+- **Fields:**
 
 - Chain: A slice of blocks representing the entire blockchain.
-**Functions:**
+- **Functions:**
 
 - AddBlock(data string): Adds a new block to the blockchain.
 - IsValid() bool: Checks if the blockchain is valid by verifying hashes and previous block references.
