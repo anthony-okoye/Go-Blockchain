@@ -2,7 +2,7 @@
 
 ### 1. Overview
 
-1. This is an implementation of a blockchain in Go. A blockchain is a decentralized, distributed ledger that records transactions across a network of computers. Each block in the chain contains a hash of the previous block, creating a chain of blocks.
+1. This is a simple implementation of a blockchain in Go. - **Not all functions are implemented yet! This program demonstrates only the principle of blockchains**.
 
 ### 2.  Components
 ### 2.1 Block
