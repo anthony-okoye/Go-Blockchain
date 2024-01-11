@@ -28,7 +28,7 @@
 - IsValid() bool: Checks if the blockchain is valid by verifying hashes and previous block references.
 
 ### 3. Running the program
-   -go run blockchain.go
+   - go run blockchain.go
 
 ### 4. Output
 - The program prints information for each block in the blockchain, including index, timestamp, data, previous hash, and hash.
