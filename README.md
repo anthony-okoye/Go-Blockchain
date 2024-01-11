@@ -1,11 +1,11 @@
 # Go-Blockchain
 
-### Overview
+### 1. Overview
 
 1. This is an implementation of a blockchain in Go. A blockchain is a decentralized, distributed ledger that records transactions across a network of computers. Each block in the chain contains a hash of the previous block, creating a chain of blocks.
 
-2. ### Components
-2.1 Block
+### 2.  Components
+### 2.1 Block
 - **Fields:**
 
 - Index: The position of the block in the blockchain.
@@ -18,7 +18,7 @@
 - CalculateHash(block Block) string: Calculates the hash of a block.
 - GenerateBlock(previousBlock Block, data string) Block: Creates a new block in the blockchain.
 
-2.2 ### Blockchain
+### 2.2 Blockchain
 - **Fields:**
 
 - Chain: A slice of blocks representing the entire blockchain.
