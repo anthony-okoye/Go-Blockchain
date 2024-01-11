@@ -21,7 +21,7 @@ Overview
 2.2 Blockchain
 **Fields:**
 
--Chain: A slice of blocks representing the entire blockchain.
+- Chain: A slice of blocks representing the entire blockchain.
 **Functions:**
 
 - AddBlock(data string): Adds a new block to the blockchain.
@@ -36,4 +36,4 @@ Overview
 
 5. Important Notes
 - This is a simplified blockchain implementation that can be expanded upon.
--In a real-world scenario, it would require additional features such as network communication, consensus algorithms, and security measures.
+- In a real-world scenario, it would require additional features such as network communication, consensus algorithms, and security measures.
