@@ -2,7 +2,7 @@
 
 ### 1. Overview
 
-1. This is a simple implementation of a blockchain in Go.- **Not all functions are implemented yet! This program demonstrates only the principle of blockchains**.
+1. This is a simple implementation of a blockchain in Go.**Not all functions are implemented yet! This program demonstrates only the principle of blockchains**.
 
 ### 2.  Components
 ### 2.1 Block
